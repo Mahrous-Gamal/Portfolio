@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio</title>
+  <title>Mahrous Gamal - Front-end</title>
 
   <!--
     - favicon
@@ -16,6 +16,11 @@
     - custom css link
   -->
   <link rel="stylesheet" href="CSS/style.css">
+
+  <!-- Box Icons -->
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css" />
+
+
 
   <!--
     - google font link
@@ -42,7 +47,7 @@
       <div class="sidebar-info">
 
         <figure class="avatar-box">
-          <img src="Images/me.jpg" alt="Richard hanrick" width="80">
+          <img class="border-me" src="Images/me.jpg" alt="Richard hanrick" width="80">
         </figure>
 
         <div class="info-content">
@@ -126,6 +131,17 @@
         <div class="separator"></div>
 
         <ul class="social-list">
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/mahrous-gamal-044693218/" target="_blank" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+        </li>
+
+          <li class="social-item">
+            <a href="https://github.com/MahrousGama1?tab=repositories"  target="_blank" class="social-link">
+                <ion-icon name="logo-github"></ion-icon>
+            </a>
+        </li>
 
           <li class="social-item">
             <a  href="https://www.facebook.com/profile.php?id=100041500743911" target="_blank" class="social-link">
@@ -199,12 +215,9 @@
             I'm a front end Developer who design and develope responsive websites.
             My expertise is to Create and design websites
           </p>
-          <p>
-            My journey as a computer science student focused on
-            learning strong basics and taking a big step in problem solving. 
-            I first started with ACM as a trainee until my journey with problem solving.
-          </p>
-        
+          <p>My job is to build your website to be functional, user-friendly, and attractive. Moreover,
+          I add a personal touch to your product and make sure that it is eye-catching and easy to use. My aim is to bring across your message and identity in the most creative way. I created web design for many companies.</p>
+      <p>As a front-end developer, I specialize in crafting modern, clean, and responsive websites that offer the best user experience. Feel free to explore my portfolio to discover my latest projects and learn more about my skills and experience in the field.</p>
         </section>
 
 
@@ -217,7 +230,7 @@
           <h3 class="h3 service-title">What i'm doing</h3>
 
           <ul class="service-list">
-
+<!-- 
             <li class="service-item">
 
               <div class="service-icon-box">
@@ -233,7 +246,7 @@
                 </p>
               </div>
 
-            </li>
+            </li> -->
 
             <li class="service-item">
 
@@ -267,7 +280,7 @@
 
             </li>
 
-            <li class="service-item">
+            <!-- <li class="service-item">
 
               <div class="service-icon-box">
                 <img src="Images/icon-photo.svg" alt="camera icon" width="40">
@@ -281,7 +294,7 @@
                 </p>
               </div>
 
-            </li>
+            </li> -->
 
           </ul>
 
@@ -325,18 +338,16 @@
 
             <h3 class="h3">Education</h3>
           </div>
-
           <ol class="timeline-list">
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">Student At Faculty Of Computer Science And Information</h4>
+              <h4 class="h4 timeline-item-title">Assiut University</h4>
 
               <span>2019 — 2023</span>
 
               <p class="timeline-text">
-                CS Department in Faculty Of Computer Science And Information
-              </p>
+                Student At Faculty Of Computer Science And Information</p>
 
             </li>
           </ol>
@@ -362,7 +373,7 @@
               <span>2019 — 2020</span>
 
               <p class="timeline-text">
-                Succeeded to solve 300 problem on codeforces 
+                Succeeded to solve 300 problem on codeforces
               </p>
 
             </li>
@@ -396,117 +407,90 @@
         </section>
 
         <section class="skill">
-
-          <h3 class="h3 skills-title">My skills</h3>
-
-          <ul class="skills-list content-card">
-
+          <h3 class="h3 skills-title">My Skills</h3>
+          <ul class="skills-list">
             <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">HTML</h5>
-                <data value="80">95%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 95%;"></div>
-              </div>
-
+              <i class="bx bxl-html5"></i>
+              <h5 class="h5">HTML</h5>
+            </li>
+            <li class="skills-item">
+              <i class="bx bxl-css3"></i>
+              <h5 class="h5">CSS</h5>
+            </li>
+            <li class="skills-item">
+              <i class="bx bxl-javascript"></i>
+              <h5 class="h5">JavaScript</h5>
+            </li>
+            <li class="skills-item">
+              <i class="bx bxl-typescript"></i>
+              <h5 class="h5">TypeScript</h5>
+            </li>
+            <li class="skills-item">
+              <i class="bx bxl-sass"></i>
+              <h5 class="h5">SASS</h5>
+            </li>
+            <li class="skills-item">
+              <i class="bx bxl-bootstrap"></i>
+              <h5 class="h5">Bootstrap</h5>
+            </li>
+            <!-- <li class="skills-item">
+                  <i class="bx bxl-jquery"></i>
+                  <h5 class="h5">jQuery</h5>
+              </li> -->
+            <li class="skills-item">
+              <i class="bx bxl-tailwind-css"></i>
+              <h5 class="h5">Tailwind CSS</h5>
+            </li>
+            <li class="skills-item">
+              <i class="bx bxl-react"></i>
+              <h5 class="h5">React JS</h5>
+            </li>
+            <li class="skills-item">
+              <img src="images/next-js.svg" alt="Next JS" />
+              <h5 class="h5">Next.js</h5>
+            </li>
+            <li class="skills-item">
+              <i class="bx bxl-redux"></i>
+              <h5 class="h5">Redux</h5>
             </li>
 
             <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">CSS</h5>
-                <data value="70">85%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 85%;"></div>
-              </div>
-
+              <i class="bx bxl-nodejs"></i>
+              <h5 class="h5">Node.js</h5>
             </li>
-
             <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Javascript</h5>
-                <data value="90">90%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 90%;"></div>
-              </div>
-
+              <img src="images/express.svg" alt="Express JS" />
+              <h5 class="h5">Express.js</h5>
             </li>
-
             <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">bootstrap</h5>
-                <data value="50">98%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 98%"></div>
-              </div>
-
+              <i class="bx bxl-mongodb"></i>
+              <h5 class="h5">MongoDB</h5>
             </li>
-
             <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">SASS</h5>
-                <data value="80">95%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 95%;"></div>
-              </div>
-
+              <i class='bx bxl-c-plus-plus'></i>
+              <h5 class="h5">C++</h5>
             </li>
-
             <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">pug.js</h5>
-                <data value="70">85%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 85%;"></div>
-              </div>
-
+              <i class="bx bxl-java"></i>
+              <h5 class="h5">Java</h5>
             </li>
-
             <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Gulp.js</h5>
-                <data value="90">90%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 90%;"></div>
-              </div>
-
+              <i class="bx bxl-python"></i>
+              <h5 class="h5">Python</h5>
             </li>
-
             <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">React.js</h5>
-                <data value="50">98%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 98%"></div>
-              </div>
-
+              <i class="bx bxl-git"></i>
+              <h5 class="h5">Git</h5>
             </li>
-
+            <li class="skills-item">
+              <i class="bx bxl-github"></i>
+              <h5 class="h5">GitHub</h5>
+            </li>
+            <!-- <li class="skills-item">
+                  <i class="bx bxl-firebase"></i>
+                  <h5 class="h5">Firebase</h5>
+              </li> -->
           </ul>
-
         </section>
 
       </article>
@@ -706,10 +690,13 @@
 
         <section class="mapbox" data-mapbox>
           <figure>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3549.0078066694614!2d31.165807724290943!3d27.187491428667393!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14450bfb7a5cb539%3A0x38d71298729ac58a!2sAssiut%20University!5e0!3m2!1sen!2seg!4v1680833973556!5m2!1sen!2seg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3549.0078066694614!2d31.165807724290943!3d27.187491428667393!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14450bfb7a5cb539%3A0x38d71298729ac58a!2sAssiut%20University!5e0!3m2!1sen!2seg!4v1680833973556!5m2!1sen!2seg"
+              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
           </figure>
         </section>
-        
+
         <section class="contact-form">
 
           <h3 class="h3 form-title">Contact Form</h3>
